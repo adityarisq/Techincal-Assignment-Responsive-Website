@@ -1,0 +1,133 @@
+body {
+    height: 3000px;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    justify-content: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+.container span {
+    font-size: 30px;
+    color: #16BDCA;
+    font-weight: bold;
+}
+.container h2{
+    text-align: center;
+    color: #16BDCA;
+    font-weight: bold;
+    font-size: 40px;
+}
+.container h3{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+}
+.container p {
+    justify-content: center;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.container ul {
+    justify-content: center;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.slogan {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+.slogan h2 {
+    font-size: 40px;
+    color: #16BDCA;
+}
+#poto1 {
+    height: 350px;
+    width: 800px;
+}
+.anggota {
+    margin-top: 50px;
+    padding: 20px;
+}
+.anggota h2{
+    color: #16BDCA;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.anggota .team {
+    justify-content: center;
+    align-items: center;
+}
+.anggota .team .apip {
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+.anggota .team .apip .biodataapip{
+    font-size: 20px;
+    align-items: center;
+}
+.anggota .team .apip .biodataapip h2 {
+    text-align: start;
+}
+#potoapip {
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+}
+.anggota .team .depal {
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.anggota .team .depal .biodatadepal{
+    font-size: 20px;
+}
+.anggota .team .depal .biodatadepal h2 {
+    text-align: start;
+}
+#potodeval {
+    height: 250px;
+    width: 200px;
+}
+.anggota .team .adit {
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+.anggota .team .adit .biodataadit{
+    font-size: 20px;
+    justify-content: center;
+}
+.anggota .team .adit .biodataadit h2 {
+    text-align: start;
+}
+#potoadit {
+    height: 250px;
+    width: 200px;
+}
