@@ -2,6 +2,93 @@ body {
     height: 3000px;
     font-family: 'Poppins', sans-serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* setup */
+:root{
+    /* color styles */
+    --blue-light:#29C5E6;
+    --blue: #16BDCA;
+    --white:#FFFFFF;
+    --dark-brown: #341413;
+    --abu-abu: #798092;
+
+    /* font */
+    --body-font: 'Poppins', sans-serif;
+
+    /* font size desktop */
+    --header-1: 64px;
+    --header-2: 48px;
+    --header-3: 42px;
+    --header-4: 32px;   
+
+    --text-medium: 18px;
+    --text-regular: 16px;
+    --text-light: 13px;
+
+    /* font weight */
+    --font-weight-bold: 700;
+    --font-weight-semi-bold: 800;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+    --font-weight-light: 300;
+
+}
+
+body{
+    font-family: var(--body-font);
+}
+
+/* button primary */
+.btn{
+    border-radius: 6px;
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-medium);
+}
+
+.btn-primary{
+    background-color: var(--blue);
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: var(--white);
+    color: var(--blue-light);
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.05)!important;
+}
+
+/* button secondary */
+
+.btn-secondary{
+    background-color: var(--abu-abu);
+    color: var(--white);
+    border: none;
+}
+
+.btn-secondary:hover{
+    background-color: var(--white)!important;
+    box-shadow:  0px 4px 19px rgba(0, 0, 0, 0.05)!important;
+    color: var(--blue);
+}
+
+
+/* navbar */
+.navbar-brand img{
+    padding-right: 13px;
+}
+
+.navbar-brand span{
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-medium);
+    color: var(--blue-light);
+    margin-right: 8px;
+}
+
+a.nav-link{
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-regular);
+    color: var(--dark-brown) ;
+}
 .container {
     justify-content: center;
     margin-top: 80px;
@@ -70,6 +157,7 @@ body {
 .anggota .team {
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 .anggota .team .apip {
     display: flex;
@@ -110,6 +198,7 @@ body {
 #potodeval {
     height: 250px;
     width: 200px;
+    border-radius: 5%;
 }
 .anggota .team .adit {
     display: flex;
@@ -130,4 +219,5 @@ body {
 #potoadit {
     height: 250px;
     width: 200px;
+    border-radius: 5%;
 }
